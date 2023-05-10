@@ -4,7 +4,7 @@ import FactorialFunction from './FactorialFunction';
 function App() {
   return (
     <VStack>
-      <Heading>Typescript App</Heading>
+      <Heading as={"h1"} size={"2xl"}>Typescript App</Heading>
       <FactorialFunction />
     </VStack>
   );
