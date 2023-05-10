@@ -1,11 +1,11 @@
-import { Heading, VStack, Button } from '@chakra-ui/react';
-import React from 'react';
+import { Heading, VStack } from '@chakra-ui/react';
+import FactorialFunction from './FactorialFunction';
 
 function App() {
   return (
     <VStack>
       <Heading>Typescript App</Heading>
-      <Button>Test</Button>
+      <FactorialFunction />
     </VStack>
   );
 }
